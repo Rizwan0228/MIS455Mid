@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Name: Rizwan Mohammad Chowdhury, ID: 2121028 -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Contact Us</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="main-content">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>For inquiries, please fill out the form below:</p>
+        <form action="submit_form.php" method="POST">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <br />
+      <br />
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 TechnoMart. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
